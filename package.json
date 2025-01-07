@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./styles.css -o ./assets/tailwind.css --minify",
+    "build": "npx tailwindcss -i ./style.css -o ./assets/css/style.css --minify",
     "copy-lightbox2": "cp -R node_modules/lightbox2/dist/* assets/lightbox2/"
   },
   "keywords": [],
