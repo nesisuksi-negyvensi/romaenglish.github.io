@@ -23,7 +23,9 @@ jobs:
         run: npm run copy-lightbox2
 
       - name: Copy everything to be deployed to dist/
-        run: cp -R *.html *.txt assets/ dist/
+        run: |
+          mkdir -p dist/
+          cp -R *.html *.txt assets/ dist/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
