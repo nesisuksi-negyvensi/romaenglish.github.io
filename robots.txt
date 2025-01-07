@@ -1,0 +1,3 @@
+# FIXME FIXME FIXME remove
+User-agent: *
+Disallow: /
