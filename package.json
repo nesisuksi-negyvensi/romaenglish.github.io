@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./style.css -o ./assets/css/style.css --minify",
-    "copy-lightbox2": "cp -R node_modules/lightbox2/dist/* assets/lightbox2/"
+    "build": "mkdir -p ./assets/css/ && npx tailwindcss -i ./style.css -o ./assets/css/style.css --minify",
+    "copy-lightbox2": "cp -R node_modules/lightbox2/dist/ assets/lightbox2/"
   },
   "keywords": [],
   "author": "",
