@@ -40,7 +40,7 @@
   </script>
   <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.css">
+    href="assets/lightbox2/css/lightbox.min.css">
 </head>
 <body id="viršus" class="bg-white text-gray-800 dark:bg-gray-900 dark:text-gray-100">
   <header
@@ -686,18 +686,16 @@
 
   </div>
 
-  <script
-  src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox-plus-jquery.min.js"
-></script>
-<script>
-  lightbox.option({
-    albumLabel: "Padėka nr. %1 iš %2",
-    wrapAround: true,
-    alwaysShowNavOnTouchDevices: true,
-    fadeDuration: 200,
-    resizeDuration: 200
-  });
-</script>
+  <script src="assets/lightbox2/js/lightbox-plus-jquery.min.js"></script>
+  <script>
+    lightbox.option({
+      albumLabel: "Padėka nr. %1 iš %2",
+      wrapAround: true,
+      alwaysShowNavOnTouchDevices: true,
+      fadeDuration: 200,
+      resizeDuration: 200
+    });
+  </script>
 
 </body>
 </html>
